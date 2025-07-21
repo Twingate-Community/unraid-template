@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>twingate-connector</Name>
+  <Repository>twingate/connector:1.77.0</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.twingate.com/</Project>
+  <Overview/>
+  <Category>Security: Network:VPN</Category>
+  <WebUI>https://auth.twingate.com/signin</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1753126819</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Access Token" Target="TWINGATE_ACCESS_TOKEN" Default="" Mode="" Description="General access token used for authenticating connector" Type="Variable" Display="always" Required="true" Mask="true">eyJhbGciOiJFUzI1NiIsImtpZCI6IktuWGpNVGtDTXp4akRTa0tTN2pFZ1dkYlo4Nl9YRU52N0lLN1ptQmEzM1kiLCJ0eXAiOiJEQVQifQ.eyJudCI6IkFOIiwiYWlkIjoiNTYwNTk3IiwiZGlkIjoiMjM3MTE2NSIsInJudyI6MTc1MzEyNjcxMCwianRpIjoiZTMwNTNmNDQtODhmZC00MWNhLWE3MWItY2ZiYmY5NGMxZmRhIiwiaXNzIjoidHdpbmdhdGUiLCJhdWQiOiJhbmRyZXdid29yayIsImV4cCI6MTc1MzEzMDA2NSwiaWF0IjoxNzUzMTI2NDY1LCJ2ZXIiOiI0IiwidGlkIjoiMTYyMjAwIiwicm5ldGlkIjoiMjE0MjIyIn0.ptHjZdmfXHEDeivzhvb5KUHL2-l5mT4Uw_mohWlPjOyP241gXl4cxvgGaMWVMiZHhQu1mVgicDPNlgvmVwDciw</Config>
+  <Config Name="Refresh Token" Target="TWINGATE_REFRESH_TOKEN" Default="" Mode="" Description="Refresh token used to keep the connector authenticated." Type="Variable" Display="always" Required="true" Mask="true">fOfKBISaAq9WmvOxyYAVPc6ZMzMqvgDSRffLAZ2Gh2_4nV46MQnx9cyE1ONHNV5lAVMih5VWXvaKGvspp9fR-LiK6kguef9FjVWknhme8HpMPdACtBo5wvChrLIQLqCr3WNxzg</Config>
+  <Config Name="Remote Network Name" Target="TWINGATE_NETWORK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">andrewbwork</Config>
+  <Config Name="Deployed By Label" Target="TWINGATE_LABEL_DEPLOYED_BY" Default="docker" Mode="" Description="Meta data about deployment technology" Type="Variable" Display="advanced-hide" Required="false" Mask="false">docker</Config>
+</Container>
