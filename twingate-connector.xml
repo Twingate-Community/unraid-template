@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://www.twingate.com/</Project>
-  <Overview/>
+  <Overview>Community app wrapper around official Twingate Connector docker image.<Overview/>
   <Category>Security: Network:VPN</Category>
   <WebUI>https://auth.twingate.com/signin</WebUI>
   <TemplateURL/>
