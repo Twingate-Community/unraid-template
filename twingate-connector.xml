@@ -23,6 +23,6 @@
   <Requires/>
   <Config Name="Access Token" Target="TWINGATE_ACCESS_TOKEN" Default="" Mode="" Description="General access token used for authenticating connector" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Refresh Token" Target="TWINGATE_REFRESH_TOKEN" Default="" Mode="" Description="Refresh token used to keep the connector authenticated." Type="Variable" Display="always" Required="true" Mask="true"></Config>
-  <Config Name="Remote Network Name" Target="TWINGATE_NETWORK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">andrewbwork</Config>
+  <Config Name="Remote Network Name" Target="TWINGATE_NETWORK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Deployed By Label" Target="TWINGATE_LABEL_DEPLOYED_BY" Default="unraid" Mode="" Description="Meta data about deployment technology" Type="Variable" Display="advanced-hide" Required="false" Mask="false">unraid</Config>
 </Container>
