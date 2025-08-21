@@ -7,13 +7,13 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/192965-support-twingate-connector/</Support>
   <Project>https://www.twingate.com/</Project>
   <Overview>Community app wrapper around official Twingate Connector docker image.</Overview>
   <Category>Security: Network:VPN</Category>
   <WebUI>https://auth.twingate.com/signin</WebUI>
-  <TemplateURL/>
-  <Icon/>
+  <TemplateURL>https://github.com/Twingate-Community/unraid-template/twingate-connector.xml</TemplateURL>
+  <Icon>https://www.twingate.com/assets/logo_dark.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
