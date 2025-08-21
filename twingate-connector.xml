@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>twingate-connector</Name>
+  <Repository>twingate/connector:1.77.0</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/192965-support-twingate-connector/</Support>
+  <Project>https://www.twingate.com/</Project>
+  <Overview>Community app wrapper around official Twingate Connector docker image.</Overview>
+  <Category>Security: Network:VPN</Category>
+  <WebUI>https://auth.twingate.com/signin</WebUI>
+  <TemplateURL>https://github.com/Twingate-Community/unraid-template/twingate-connector.xml</TemplateURL>
+  <Icon>https://www.twingate.com/assets/logo_dark.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1753126819</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Access Token" Target="TWINGATE_ACCESS_TOKEN" Default="" Mode="" Description="General access token used for authenticating connector" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Refresh Token" Target="TWINGATE_REFRESH_TOKEN" Default="" Mode="" Description="Refresh token used to keep the connector authenticated." Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Remote Network Name" Target="TWINGATE_NETWORK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Deployed By Label" Target="TWINGATE_LABEL_DEPLOYED_BY" Default="unraid" Mode="" Description="Meta data about deployment technology" Type="Variable" Display="advanced-hide" Required="false" Mask="false">unraid</Config>
+</Container>
