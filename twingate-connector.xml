@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>twingate-connector</Name>
-  <Repository>twingate/connector:1.77.0</Repository>
+  <Name>Twingate Connector</Name>
+  <Repository>twingate/connector:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
