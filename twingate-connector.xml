@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Twingate Connector</Name>
+  <Name>Twingate Connector Official</Name>
   <Repository>twingate/connector:latest</Repository>
-  <Registry/>
+  <Registry>https://registry.hub.docker.com/r/twingate/connector</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/192965-support-twingate-connector/</Support>
   <Project>https://www.twingate.com/</Project>
-  <Overview>Community app wrapper around official Twingate Connector docker image.</Overview>
+  <Overview>A lightweight, outbound-only service that securely connects your private resources to Twingate's network without exposing any inbound ports to the internet.</Overview>
   <Category>Security: Network:VPN</Category>
   <WebUI>https://auth.twingate.com/signin</WebUI>
   <TemplateURL>https://github.com/Twingate-Community/unraid-template/twingate-connector.xml</TemplateURL>
@@ -24,5 +24,6 @@
   <Config Name="Access Token" Target="TWINGATE_ACCESS_TOKEN" Default="" Mode="" Description="General access token used for authenticating connector" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Refresh Token" Target="TWINGATE_REFRESH_TOKEN" Default="" Mode="" Description="Refresh token used to keep the connector authenticated." Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Remote Network Name" Target="TWINGATE_NETWORK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Log Level" Target="TWINGATE_LOG_LEVEL" Default="3" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Deployed By Label" Target="TWINGATE_LABEL_DEPLOYED_BY" Default="unraid" Mode="" Description="Meta data about deployment technology" Type="Variable" Display="advanced-hide" Required="false" Mask="false">unraid</Config>
 </Container>
